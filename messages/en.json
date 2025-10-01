@@ -1,0 +1,972 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "countries": "Countries",
+    "blog": "Latest News",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "emergency": "24/7 Emergency",
+    "callNow": "Call Now",
+    "whatsapp": "WhatsApp",
+    "languageToggle": "عربي"
+  },
+  "hero": {
+    "title": "Voice of Law for Stars, Politicians & Business Leaders",
+    "subtitle": "Elite legal services with absolute confidentiality for high-profile cases across Egypt, Saudi Arabia, and UAE",
+    "cta": "Get Legal Consultation",
+    "emergency": "Emergency Consultation",
+    "experience": "15+ Years Experience",
+    "cases": "1000+ Cases Won",
+    "success": "95%+ Success Rate"
+  },
+  "about": {
+    "title": "Counselor Montaser Haridy",
+    "subtitle": "Elite Lawyer",
+    "description": "One of the most prominent lawyers in Egypt and the Arab world, specializing in high-profile, sensitive cases requiring absolute confidentiality.",
+    "experience": "With over 15 years of experience and a 95%+ success rate across 1000+ cases, Counselor Montaser Haridy has established himself as the go-to legal expert for celebrities, politicians, and business leaders.",
+    "criminal_expertise": "Egypt's Most Famous Criminal Lawyer",
+    "complex_cases": "Lawyer of Complex Cases",
+    "vip_title": "Lawyer for Stars, Politicians & Business Leaders",
+    "vip_description": "Renowned for exceptional expertise in handling sensitive high-profile public cases and public figures with absolute confidentiality",
+    "hero": {
+      "badge": "About Us",
+      "title": "Counselor Montaser Haridy",
+      "subtitle": "Elite Lawyer - Voice of Law for Stars, Politicians & Business Leaders",
+      "description": "Recognized by the legal and media community as one of the most prominent lawyers in Egypt and the Arab world, renowned for exceptional expertise in handling sensitive high-profile cases."
+    },
+    "background": {
+      "title": "Professional Background",
+      "intro": "Counselor Montaser Haridy has built a distinguished career representing high-profile clients across the Middle East and beyond. With offices in Egypt, Saudi Arabia, and the UAE, he provides comprehensive legal services with an emphasis on confidentiality and results.",
+      "experience": "His expertise spans criminal defense, corporate law, international cases, and foreign residency matters. Having successfully handled over 1,000 cases with a 95%+ success rate, Counselor Haridy has become the trusted legal advisor for celebrities, politicians, and business leaders throughout the region.",
+      "vision": "To be at the forefront of leading law firms in the Arab world, and the destination for elite investors and business leaders seeking effective legal and financial support in the Middle East, while maintaining professional values and complete confidentiality."
+    },
+    "criminal_cases": {
+      "title": "Exceptional Expertise in Criminal Cases",
+      "murder": "Murder and attempted murder cases",
+      "drugs": "Drug trafficking and international narcotics",
+      "money_laundering": "Money laundering cases",
+      "security": "National security and espionage cases",
+      "economic": "Economic and commercial crimes",
+      "media": "Media crimes and public opinion cases"
+    },
+    "criminal": {
+      "title": "Egypt's Most Famous Criminal Lawyer",
+      "subtitle": "Excellence and Trust in Major Criminal Cases",
+      "description": "Counselor Montaser Haridy is one of the most prominent names in the field of criminal cases and major crimes in Egypt. He is known as the 'Lawyer of Complex Cases' due to his extensive track record in defending clients in the most serious criminal cases.",
+      "expertise": "Exceptional Expertise in Criminal Cases",
+      "cases": {
+        "murder": "Murder and attempted murder cases",
+        "drugs": "Drug trafficking and international narcotics",
+        "money_laundering": "Money laundering cases",
+        "security": "National security and espionage cases",
+        "economic": "Economic and commercial crimes",
+        "media": "Media crimes and public opinion cases"
+      }
+    },
+    "vip": {
+      "title": "Lawyer for Stars, Politicians & Business Leaders",
+      "description": "Known in legal and media circles as one of the most prominent lawyers in Egypt and the Arab world, famous for his exceptional expertise in handling sensitive high-profile public cases.",
+      "features": [
+        "Exceptional expertise in handling sensitive public cases",
+        "High capability in managing legal files that top public opinion",
+        "Absolute secrecy in representing public figures",
+        "Complete respect for finest details and high professional standards"
+      ],
+      "clients": {
+        "title": "Clients from Various Fields",
+        "artists": "Major artists from Egypt and the Arab world",
+        "politicians": "Former and current politicians",
+        "business": "Local and international business leaders and investors",
+        "influencers": "Arab celebrities from various specializations"
+      }
+    },
+    "why_choose": {
+      "title": "What Distinguishes Counselor Montaser?",
+      "subtitle": "Trust and professionalism in managing legal crises with quick response and deep analysis of complex files",
+      "trust": "Trust and professionalism in crisis management",
+      "speed": "Quick legal action and complete defense teams",
+      "media": "Professional handling of media and public opinion without harming client position"
+    },
+    "specialties_title": "Legal Specialties",
+    "specialties": [
+      "Criminal Defense",
+      "Corporate Law",
+      "International Cases",
+      "Media & Privacy Law",
+      "Foreign Residency",
+      "High-Profile Litigation"
+    ],
+    "stats": {
+      "years": "Years Experience",
+      "cases": "Cases Won",
+      "success": "Success Rate",
+      "countries": "Countries"
+    },
+    "features": {
+      "confidentiality": "Absolute Confidentiality",
+      "elite": "Elite Clientele",
+      "expertise": "International Expertise",
+      "support": "24/7 Emergency Support"
+    },
+    "page_title": "Professional Background",
+    "background_p1": "Counselor Montaser Haridy has built a distinguished career representing high-profile clients across the Middle East and beyond. With offices in Egypt, Saudi Arabia, and the UAE, he provides comprehensive legal services with an emphasis on confidentiality and results.",
+    "background_p2": "His expertise spans criminal defense, corporate law, international cases, and foreign residency matters. Having successfully handled over 1,000 cases with a 95%+ success rate, Counselor Haridy has become the trusted legal advisor for celebrities, politicians, and business leaders throughout the region.",
+    "crisis_management": "Legal crisis management for public figures",
+    "timeline": {
+      "title": "Journey of Success",
+      "subtitle": "A journey of excellence and professional achievements over the years",
+      "items": [
+        {
+          "year": "2010",
+          "title": "Career Beginning",
+          "description": "Law firm establishment and specialization in civil cases"
+        },
+        {
+          "year": "2015",
+          "title": "Regional Expansion",
+          "description": "Opening branches in Saudi Arabia and UAE"
+        },
+        {
+          "year": "2018",
+          "title": "High-Profile Cases",
+          "description": "Specialization in celebrity and public figure cases"
+        },
+        {
+          "year": "2020",
+          "title": "Digital Services",
+          "description": "Launch of remote legal consultation services"
+        },
+        {
+          "year": "2025",
+          "title": "Legal Leadership",
+          "description": "Leadership in distinguished legal services"
+        }
+      ]
+    },
+    "offices": {
+      "title": "Our Offices",
+      "subtitle": "Regional office network to serve our clients in the best possible way"
+    }
+  },
+  "services": {
+    "title": "Premium Legal Services",
+    "subtitle": "Comprehensive legal solutions for elite clientele",
+    "learn_more": "Learn More",
+    "view_all": "View All Services",
+    "our_specialized": "Our Specialized Services",
+    "our_specialized_subtitle": "Comprehensive legal solutions tailored to your needs",
+    "our_process": "Our Litigation Process",
+    "our_process_subtitle": "Our proven step-by-step approach to success",
+    "why_choose": "Why Choose Our Services",
+    "why_choose_subtitle": "Excellence, expertise, and commitment to your success",
+    "ready_started": "Ready to Get Started?",
+    "ready_started_subtitle": "Contact us today for professional legal consultation with absolute confidentiality",
+    "call_phone": "Call: 0238333366",
+    "available_24_7": "24/7",
+    "available": "Available",
+    "confidential_100": "100%",
+    "confidential": "Confidential",
+    "years_experience": "15+",
+    "litigation": {
+      "title": "Litigation Management",
+      "description": "Expert representation in criminal, civil, and family cases across Egypt, Saudi Arabia, and UAE",
+      "areas": ["Criminal Defense", "Civil Disputes", "Family Law", "Commercial Litigation"],
+      "hero": {
+        "title": "Litigation Management",
+        "subtitle": "Expert Legal Representation at All Levels",
+        "description": "Exceptional expertise in handling criminal, civil, family, and commercial cases across all court levels in Egypt, Saudi Arabia, and UAE with absolute confidentiality and professional excellence."
+      },
+      "overview": {
+        "title": "Comprehensive Litigation Services",
+        "description": "Expert representation in all types of legal cases with exceptional expertise and distinguished legal representation across all court levels.",
+        "coverage": "In a world full of legal complexities, litigation management within Counselor Montaser Haridy's office stands out as one of the strongest specialized departments in representing individuals and companies before all levels of courts in Egypt, Saudi Arabia, and the UAE."
+      },
+      "types": {
+        "criminal": {
+          "title": "Criminal Cases",
+          "items": [
+            "Murder and attempted murder",
+            "Drug trafficking and narcotics",
+            "Money laundering",
+            "National security cases",
+            "Economic crimes",
+            "Media crimes and defamation",
+            "White-collar crimes"
+          ]
+        },
+        "civil": {
+          "title": "Civil Disputes",
+          "items": [
+            "Compensation claims",
+            "Property disputes",
+            "Rental issues",
+            "Ownership matters",
+            "Check disputes",
+            "Contract enforcement"
+          ]
+        },
+        "family": {
+          "title": "Family Law",
+          "items": [
+            "Divorce proceedings",
+            "Custody battles",
+            "Alimony disputes",
+            "Paternity cases",
+            "Guardianship matters",
+            "Family arbitration"
+          ]
+        },
+        "commercial": {
+          "title": "Commercial Litigation",
+          "items": [
+            "Business disputes",
+            "Contract violations",
+            "Partnership conflicts",
+            "Corporate legal battles",
+            "Commercial arbitration",
+            "Execution of judgments"
+          ]
+        }
+      },
+      "process": {
+        "title": "Our Litigation Process",
+        "steps": [
+          {
+            "title": "Initial Consultation",
+            "description": "Comprehensive case assessment and strategy determination with immediate action plan"
+          },
+          {
+            "title": "File Preparation",
+            "description": "Gathering necessary evidence, documents, and witness statements with thorough legal research"
+          },
+          {
+            "title": "Court Representation",
+            "description": "Professional representation before courts with expert pleading and legal argumentation"
+          },
+          {
+            "title": "Follow-up & Execution",
+            "description": "Continuous follow-up until achieving the desired result and executing judgments"
+          }
+        ]
+      },
+      "highlights": [
+        "High-profile criminal cases",
+        "Sensitive political matters",
+        "Celebrity legal issues",
+        "Media crisis management",
+        "24/7 emergency response",
+        "Absolute confidentiality"
+      ]
+    },
+    "corporate": {
+      "title": "Corporate Services",
+      "description": "Complete business formation and management services with international expertise",
+      "areas": ["Company Formation", "Business Licensing", "Corporate Amendments", "Regulatory Compliance"],
+      "hero": {
+        "title": "Corporate Services",
+        "subtitle": "From Idea to Legal Entity - Your Partners in Success",
+        "description": "Complete business formation and management services with international expertise across Egypt, Saudi Arabia, and UAE. We don't just establish companies; we build investments on solid ground."
+      },
+      "overview": {
+        "title": "Comprehensive Corporate Solutions",
+        "description": "In light of the expansion of local and regional investment, the Corporate Services department within Counselor Montaser Haridy's office has emerged as one of the strongest legal departments specialized in establishing and developing commercial and investment entities according to the highest standards of legal accuracy and transparency."
+      },
+      "egypt": {
+        "title": "Egypt Corporate Services",
+        "items": [
+          "Company formation (all types: single person, LLC, joint stock)",
+          "Legal amendments (adding partners, changing activities, capital modifications)",
+          "Commercial registry and tax card extraction",
+          "Registration of incorporation contracts and bylaws",
+          "Establishment of non-profit associations and foundations"
+        ]
+      },
+      "saudi": {
+        "title": "Saudi Arabia Corporate Services",
+        "highlight": "Foreign Company Formation Without Saudi Sponsor",
+        "items": [
+          "Foreign company formation without Saudi sponsor",
+          "Investment license extraction (service, industrial, commercial)",
+          "Foreign company branch establishment in the Kingdom",
+          "Comprehensive investment license (3-in-1)",
+          "Investor residency linked to commercial registry"
+        ]
+      },
+      "uae": {
+        "title": "UAE Corporate Services",
+        "items": [
+          "Free Zone and Mainland company formation",
+          "Commercial license extraction (all types)",
+          "Local agency and legal sponsorship services",
+          "Corporate legal structure organization",
+          "Golden residency for investors"
+        ]
+      },
+      "post_formation": {
+        "title": "Post-Formation Services",
+        "items": [
+          "Company data and bylaw amendments",
+          "Corporate tax and annual reports follow-up",
+          "Company dissolution and liquidation",
+          "Representation before government entities",
+          "Commercial contracts and agreements drafting",
+          "Compliance and regulatory support"
+        ]
+      },
+      "why_choose": [
+        "Cross-border legal expertise (Egypt - Saudi Arabia - UAE)",
+        "Strong network with government entities",
+        "Professional legal handling and VIP customer service",
+        "Ready and fast-execution formation models",
+        "Complete protection of client interests from first step to actual operation"
+      ]
+    },
+    "residency": {
+      "title": "Foreign Residency",
+      "description": "500+ successful residency cases across 16+ countries for international clients",
+      "areas": ["Investor Visa", "Work Permits", "Tourist Extensions", "Citizenship Consulting"],
+      "hero": {
+        "title": "Foreign Residency Services",
+        "subtitle": "International Success - Documented Achievements",
+        "description": "500+ successful residency cases across 16+ countries. With Counselor Montaser Haridy - the leading lawyer for foreigners in Egypt and the Arab world."
+      },
+      "overview": {
+        "title": "Comprehensive Residency Solutions",
+        "description": "Counselor Montaser Haridy's office has achieved exceptional success in establishing legal residency files for foreigners in Egypt, becoming one of the first law offices specialized in supporting and protecting the rights of Arab and foreign residents with complete legal professionalism."
+      },
+      "countries": {
+        "title": "Countries We've Served",
+        "subtitle": "Citizens from 16+ countries including:",
+        "list": [
+          "Syria", "Iraq", "Lebanon", "Jordan", "Palestine",
+          "Oman", "UAE", "Sudan", "Yemen", "Tunisia",
+          "Algeria", "Turkey", "USA", "Canada", "France", "Germany"
+        ]
+      },
+      "services": {
+        "title": "Our Residency Services",
+        "items": [
+          "Tourist / Study / Work residency",
+          "Company-based residency (investor or partner)",
+          "Medical treatment or family reunification residency",
+          "Residency type modification and renewal",
+          "Residency for foreigners married to Egyptians",
+          "Residency for artists, journalists, and professionals",
+          "Legal solutions for expired residency or deportation cases"
+        ]
+      },
+      "investor": {
+        "title": "Investor Residency in Egypt",
+        "subtitle": "#1 in Attracting Foreign Investors",
+        "description": "Specialized in facilitating procedures for Arab and foreign investor residency in Egypt through studied legal steps and strong network with relevant authorities.",
+        "services": [
+          "Actual company formation for investor",
+          "1 or 3-year investor residency (renewable)",
+          "Complete investment file preparation A to Z",
+          "Legal representation before Immigration and Investment Authority",
+          "Fast tax card and commercial registry extraction",
+          "Translation and legal authentication of foreign documents"
+        ]
+      },
+      "why_choose": [
+        "Documented expertise with Passport, Immigration & Nationality Department",
+        "Fast file preparation and application follow-up",
+        "Complete legal protection throughout all stages",
+        "Post-residency follow-up (renewal, amendments, complaints)",
+        "Direct dealings with authorities without intermediaries",
+        "Confidentiality and professionalism in managing VIP investor files"
+      ]
+    },
+    "consultation": {
+      "title": "Phone Consultation",
+      "description": "24/7 global access to expert legal advice with absolute confidentiality",
+      "areas": ["Emergency Legal Advice", "Crisis Management", "Confidential Consultation", "International Support"],
+      "hero": {
+        "title": "Phone Consultation Services",
+        "subtitle": "From Anywhere - Your Legal Consultation at Hand",
+        "description": "24/7 legal consultation services available from anywhere with complete privacy. Direct communication with specialized lawyers in Egypt, Saudi Arabia, and UAE."
+      },
+      "overview": {
+        "title": "Immediate Legal Consultations",
+        "description": "In light of fast-paced events and clients' need for immediate and safe solutions, Counselor Montaser Haridy's office offers phone legal consultation services, allowing you direct communication with elite lawyers and consultants."
+      },
+      "features": [
+        "Direct communication with specialized consultants",
+        "Complete privacy and confidentiality",
+        "Fast response and appropriate legal path determination",
+        "Available from anywhere inside or outside Egypt",
+        "No need for physical presence or postponement",
+        "Immediate emergency legal advice",
+        "Crisis management for public figures",
+        "Multi-language support (Arabic & English)"
+      ],
+      "areas_section": {
+        "title": "Consultation Areas",
+        "items": [
+          "Criminal, civil, and personal status cases",
+          "Company formation and investment licenses",
+          "Contract issues and commercial disputes",
+          "Labor and employment issues",
+          "Tax and financial consultations",
+          "Immediate legal document review",
+          "Emergency legal crises",
+          "International legal support"
+        ]
+      },
+      "booking": {
+        "title": "How to Book Consultation",
+        "steps": [
+          "Call our number: 0238333366",
+          "Or contact via WhatsApp: 01070009593",
+          "You'll be transferred to the specialized consultant",
+          "Payment via bank transfer, Vodafone Cash, or cash upon visit"
+        ]
+      }
+    }
+  },
+  "service_details" : {
+    "litigation": {
+      "hero": {
+        "title": "Litigation Management",
+        "subtitle": "Expert Legal Representation at All Levels",
+        "description": "Exceptional expertise in handling criminal, civil, family, and commercial cases..."
+      },
+      "overview": {
+        "title": "Comprehensive Litigation Services",
+        "description": "Expert representation in all types of legal cases...",
+        "coverage": "In a world full of legal complexities..."
+      },
+      "types": {
+        "criminal": {
+          "title": "Criminal Cases",
+          "items": [
+            "Murder and attempted murder",
+            "Drug trafficking and narcotics",
+            "Money laundering",
+            "National security cases",
+            "Economic crimes",
+            "Media crimes and defamation",
+            "White-collar crimes"
+          ]
+        },
+        "civil": {
+          "title": "Civil Disputes",
+          "items": [
+            "Compensation claims",
+            "Property disputes",
+            "Rental issues",
+            "Ownership matters",
+            "Check disputes",
+            "Contract enforcement"
+          ]
+        },
+        "family": {
+          "title": "Family Law",
+          "items": [
+            "Divorce proceedings",
+            "Custody battles",
+            "Alimony disputes",
+            "Paternity cases",
+            "Guardianship matters",
+            "Family arbitration"
+          ]
+        },
+        "commercial": {
+          "title": "Commercial Litigation",
+          "items": [
+            "Business disputes",
+            "Contract violations",
+            "Partnership conflicts",
+            "Corporate legal battles",
+            "Commercial arbitration",
+            "Execution of judgments"
+          ]
+        }
+      },
+      "process": {
+        "title": "Our Litigation Process",
+        "steps": [
+          {
+            "title": "Initial Consultation",
+            "description": "Comprehensive case assessment and strategy determination with immediate action plan"
+          },
+          {
+            "title": "File Preparation",
+            "description": "Gathering necessary evidence, documents, and witness statements with thorough legal research"
+          },
+          {
+            "title": "Court Representation",
+            "description": "Professional representation before courts with expert pleading and legal argumentation"
+          },
+          {
+            "title": "Follow-up & Execution",
+            "description": "Continuous follow-up until achieving the desired result and executing judgments"
+          }
+        ]
+      },
+      "highlights": [
+        "High-profile criminal cases",
+        "Sensitive political matters",
+        "Celebrity legal issues",
+        "Media crisis management",
+        "24/7 emergency response",
+        "Absolute confidentiality"
+      ]
+    },
+    "residency": {
+      "hero": {
+        "title": "Foreign Residency Services",
+        "subtitle": "International Success - Documented Achievements",
+        "description": "500+ successful residency cases across 16+ countries..."
+      },
+      "overview": {
+        "title": "Comprehensive Residency Solutions",
+        "description": "Counselor Montaser Haridy's office has achieved exceptional success..."
+      },
+      "types": {
+        "tourist": {
+          "title": "Tourist & Study Residency",
+          "items": [
+            "Tourist visa extensions",
+            "Study permit applications",
+            "Work residency permits",
+            "Residency renewals"
+          ]
+        },
+        "investor": {
+          "title": "Investor Residency",
+          "items": [
+            "Company-based residency (investor or partner)",
+            "1 or 3-year investor residency (renewable)",
+            "Complete investment file preparation",
+            "Legal representation before authorities"
+          ]
+        },
+        "family": {
+          "title": "Family Residency",
+          "items": [
+            "Medical treatment residency",
+            "Family reunification",
+            "Residency for foreigners married to Egyptians",
+            "Dependent visas"
+          ]
+        },
+        "professional": {
+          "title": "Professional Residency",
+          "items": [
+            "Residency for artists and journalists",
+            "Professional permits",
+            "Residency type modification and renewal",
+            "Legal solutions for expired residency cases"
+          ]
+        }
+      },
+      "process": {
+        "title": "Our Residency Process",
+        "steps": [
+          {
+            "title": "Initial Assessment",
+            "description": "Comprehensive evaluation of your residency needs and eligibility determination"
+          },
+          {
+            "title": "Document Preparation",
+            "description": "Gathering and preparing all required documents with proper authentication"
+          },
+          {
+            "title": "Application Submission",
+            "description": "Filing applications with immigration authorities and follow-up"
+          },
+          {
+            "title": "Approval & Issuance",
+            "description": "Obtaining residency approval and issuance of permits"
+          }
+        ]
+      },
+      "highlights": [
+        "500+ successful residency cases",
+        "16+ countries served",
+        "Direct dealings with authorities",
+        "Complete legal protection",
+        "Fast file preparation",
+        "Post-residency support"
+      ]
+    },
+    "corporate": {
+      "hero": {
+        "title": "Corporate Services",
+        "subtitle": "From Idea to Legal Entity - Your Partners in Success",
+        "description": "Complete business formation and management services..."
+      },
+      "overview": {
+        "title": "Comprehensive Corporate Solutions",
+        "description": "In light of the expansion of local and regional investment..."
+      },
+      "types": {
+        "egypt": {
+          "title": "Egypt Corporate Services",
+          "items": [
+            "Company formation (all types: single person, LLC, joint stock)",
+            "Legal amendments (adding partners, changing activities, capital modifications)",
+            "Commercial registry and tax card extraction",
+            "Registration of incorporation contracts and bylaws",
+            "Establishment of non-profit associations and foundations"
+          ]
+        },
+        "saudi": {
+          "title": "Saudi Arabia Corporate Services",
+          "items": [
+            "Foreign company formation without Saudi sponsor",
+            "Investment license extraction (service, industrial, commercial)",
+            "Foreign company branch establishment in the Kingdom",
+            "Comprehensive investment license (3-in-1)",
+            "Investor residency linked to commercial registry"
+          ]
+        },
+        "uae": {
+          "title": "UAE Corporate Services",
+          "items": [
+            "Free Zone and Mainland company formation",
+            "Commercial license extraction (all types)",
+            "Local agency and legal sponsorship services",
+            "Corporate legal structure organization",
+            "Golden residency for investors"
+          ]
+        },
+        "post_formation": {
+          "title": "Post-Formation Services",
+          "items": [
+            "Company data and bylaw amendments",
+            "Corporate tax and annual reports follow-up",
+            "Company dissolution and liquidation",
+            "Representation before government entities",
+            "Commercial contracts and agreements drafting",
+            "Compliance and regulatory support"
+          ]
+        }
+      },
+      "process": {
+        "title": "Our Corporate Formation Process",
+        "steps": [
+          {
+            "title": "Consultation & Planning",
+            "description": "Understanding your business needs and determining optimal corporate structure"
+          },
+          {
+            "title": "Documentation",
+            "description": "Preparing all incorporation documents, licenses, and agreements"
+          },
+          {
+            "title": "Registration",
+            "description": "Filing with commercial registries and obtaining official approvals"
+          },
+          {
+            "title": "Activation & Support",
+            "description": "Company activation and ongoing compliance support"
+          }
+        ]
+      },
+      "highlights": [
+        "Cross-border legal expertise (Egypt - Saudi Arabia - UAE)",
+        "Strong network with government entities",
+        "Professional legal handling and VIP customer service",
+        "Ready and fast-execution formation models",
+        "Complete protection of client interests",
+        "Post-formation support"
+      ]
+    },
+    "consultation": {
+      "hero": {
+        "title": "Phone Consultation Services",
+        "subtitle": "From Anywhere - Your Legal Consultation at Hand",
+        "description": "24/7 legal consultation services available from anywhere..."
+      },
+      "overview": {
+        "title": "Immediate Legal Consultations",
+        "description": "In light of fast-paced events and clients' need for immediate..."
+      },
+      "types": {
+        "criminal": {
+          "title": "Criminal & Civil Cases",
+          "items": [
+            "Criminal case consultations",
+            "Civil dispute advice",
+            "Personal status matters",
+            "Emergency legal guidance"
+          ]
+        },
+        "business": {
+          "title": "Business & Corporate",
+          "items": [
+            "Company formation advice",
+            "Investment licenses",
+            "Contract issues",
+            "Commercial disputes"
+          ]
+        },
+        "employment": {
+          "title": "Employment & Tax",
+          "items": [
+            "Labor and employment issues",
+            "Tax consultations",
+            "Financial advice",
+            "Compliance matters"
+          ]
+        },
+        "emergency": {
+          "title": "Emergency Support",
+          "items": [
+            "Immediate legal document review",
+            "Emergency legal crises",
+            "International legal support",
+            "24/7 availability"
+          ]
+        }
+      },
+      "process": {
+        "title": "How to Get Consultation",
+        "steps": [
+          {
+            "title": "Contact Us",
+            "description": "Call 0238333366 or WhatsApp 01070009593"
+          },
+          {
+            "title": "Specialist Connection",
+            "description": "You'll be connected to the specialized consultant for your case"
+          },
+          {
+            "title": "Consultation",
+            "description": "Receive expert legal advice with complete confidentiality"
+          },
+          {
+            "title": "Follow-up",
+            "description": "Payment and further action plan if needed"
+          }
+        ]
+      },
+      "highlights": [
+        "Direct communication with specialized consultants",
+        "Complete privacy and confidentiality",
+        "Fast response and legal path determination",
+        "Available from anywhere inside or outside Egypt",
+        "24/7 emergency availability",
+        "Multi-language support (Arabic & English)"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to discuss your case? Contact us for immediate consultation",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "hours": "Working Hours",
+    "emergency": "24/7 Emergency Available",
+    "emergency_desc": "24/7 emergency consultation available",
+    "location_value": "Downtown Cairo, Egypt",
+    "hours_value": "Saturday-Thursday 9AM-6PM",
+    "get_in_touch": "Get in Touch",
+    "get_in_touch_subtitle": "We're here to help with your legal needs. Contact us through any of the following methods, and we'll respond promptly.",
+    "find_us": "Find Us",
+    "find_us_subtitle": "Visit our main office in Downtown Cairo",
+    "send_message": "Send Us a Message",
+    "working_hours_detail": {
+      "sat_thu": "Saturday - Thursday:",
+      "sat_thu_time": "9:00 AM - 6:00 PM",
+      "friday": "Friday:",
+      "friday_time": "Closed",
+      "emergency_label": "Emergency:",
+      "emergency_time": "24/7 Available"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Service Needed",
+      "message": "Message",
+      "submit": "Send Message",
+      "emergency": "Emergency Consultation",
+      "select_service": "Select a service",
+      "litigation_option": "Litigation Management",
+      "corporate_option": "Corporate Services",
+      "residency_option": "Foreign Residency",
+      "consultation_option": "Phone Consultation",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We will contact you soon.",
+      "error": "Failed to send message. Please try again.",
+      "required": "required"
+    }
+  },
+  "countries": {
+    "title": "International Presence",
+    "subtitle": "Legal services across 16+ countries with proven success",
+    "main_markets": "Main Markets",
+    "other_countries": "Additional Countries Served",
+    "hero": {
+      "title": "International Presence",
+      "subtitle": "Legal services across 16+ countries with proven success and documented achievements",
+      "badge": "Global Presence"
+    },
+    "main_markets_section": {
+      "title": "Our Main Markets",
+      "subtitle": "Our main operational hubs across the Middle East"
+    },
+    "additional": {
+      "title": "Additional Countries Served",
+      "subtitle": "Successfully handled residency and legal cases for clients from:",
+      "list": [
+        { "name": "Syria", "cases": "50+" },
+        { "name": "Iraq", "cases": "30+" },
+        { "name": "Lebanon", "cases": "40+" },
+        { "name": "Jordan", "cases": "35+" },
+        { "name": "Palestine", "cases": "25+" },
+        { "name": "Oman", "cases": "20+" },
+        { "name": "Sudan", "cases": "30+" },
+        { "name": "Yemen", "cases": "15+" },
+        { "name": "Tunisia", "cases": "25+" },
+        { "name": "Algeria", "cases": "20+" },
+        { "name": "Turkey", "cases": "45+" },
+        { "name": "USA", "cases": "60+" },
+        { "name": "Canada", "cases": "30+" },
+        { "name": "France", "cases": "25+" },
+        { "name": "Germany", "cases": "20+" }
+      ]
+    },
+    "egypt": {
+      "name": "Egypt",
+      "description": "Headquarters - All legal services",
+      "role": "Headquarters",
+      "location": "Downtown Cairo, Egypt",
+      "services": [
+        "All types of litigation",
+        "Company formation",
+        "Foreign residency",
+        "Legal consultations",
+        "Tax services"
+      ],
+      "cases": "600+ cases completed"
+    },
+    "saudi": {
+      "name": "Saudi Arabia",
+      "description": "Corporate formation & investment",
+      "role": "Regional Hub",
+      "location": "Al Olaya District, Riyadh",
+      "services": [
+        "Company formation without sponsor",
+        "Investment licenses",
+        "Investor residency",
+        "Commercial law",
+        "Partnership agreements"
+      ],
+      "cases": "250+ cases completed"
+    },
+    "uae": {
+      "name": "UAE",
+      "description": "International trade & DIFC expertise",
+      "role": "International Gateway",
+      "location": "DIFC, Dubai",
+      "services": [
+        "Free Zone & Mainland setup",
+        "Golden residency",
+        "International trade",
+        "Commercial arbitration",
+        "Corporate law"
+      ],
+      "cases": "200+ cases completed"
+    },
+    "stats": {
+      "countries": "16+ Countries",
+      "countries_desc": "Global legal reach",
+      "residencies": "500+ Residencies",
+      "residencies_desc": "Successful applications",
+      "support": "24/7 Support",
+      "support_desc": "Emergency assistance",
+      "multilingual": "Multilingual",
+      "multilingual_desc": "Arabic & English"
+    },
+    "cta": {
+      "title": "Need Legal Services in Any of These Countries?",
+      "subtitle": "Contact us today for professional consultation and support worldwide"
+    },
+    "services_label": "Services:",
+    "successfully_completed": "Successfully Completed"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Professional moments and achievements",
+    "photos": "Photos",
+    "videos": "Videos",
+    "load_more": "Load More",
+    "photo_title": "Professional moment",
+    "video_title": "Legal consultation video"
+  },
+  "blog": {
+  "title": "Latest News",
+  "subtitle": "Legal insights, case updates, and industry news",
+  "read_more": "Read More",
+  "read_article": "Read Article",
+  "published_on": "Published on",
+  "by_author": "By",
+  "category": "Category",
+  "share": "Share",
+  "recent_posts": "Recent Posts",
+  "related_posts": "Related Posts",
+  "all_categories": "All Categories",
+  "no_results": "No articles found",
+  "back_to_blog": "Back to Blog",
+  "subscribe_newsletter": "Subscribe to Newsletter",
+  "subscribe_newsletter_desc": "Get the latest legal updates delivered to your inbox",
+  "subscribe_button": "Subscribe",
+  "your_email": "Your email",
+  "all": "All",
+  "articles_interest": "Articles you might be interested in",
+  "view_all_articles": "View All Articles",
+  "more_about_counselor": "More About Counselor",
+  "author_bio": "Lawyer and legal consultant specializing in international cases, investment, and corporate law with over 15 years of experience.",
+  "copied": "Copied!",
+  "not_found": "Post Not Found",
+  "previous": "Previous",
+  "next": "Next",
+  "rss_feed": "RSS Feed",
+  "rss_feed_desc": "Subscribe to stay updated with our latest legal insights and news",
+  "subscribe_rss": "Subscribe to RSS",
+  "categories": {
+    "legal_updates": "Legal Updates",
+    "case_studies": "Case Studies",
+    "investment": "Investment",
+    "corporate": "Corporate Law",
+    "criminal": "Criminal Law",
+    "residency": "Residency",
+    "news": "News"
+    }
+  },
+  "footer": {
+    "company_desc": "Voice of Law for Stars, Politicians & Business Leaders - Elite legal services with absolute confidentiality",
+    "quick_links": "Quick Links",
+    "offices": "Our Offices",
+    "rights": "All rights reserved",
+    "premium_services": "Premium Legal Services",
+    "egypt_office": {
+      "city": "Cairo, Egypt",
+      "address": "Downtown Cairo",
+      "services": "All legal services"
+    },
+    "saudi_office": {
+      "city": "Riyadh, Saudi Arabia",
+      "address": "Al Olaya District",
+      "services": "Corporate formation"
+    },
+    "uae_office": {
+      "city": "Dubai, UAE",
+      "address": "DIFC",
+      "services": "International trade"
+    },
+    "available_services": "Available Services:"
+  },
+  "common": {
+    "call_now": "Call Now",
+    "whatsapp": "WhatsApp",
+    "legal_insights": "Legal Insights"
+  }
+}
