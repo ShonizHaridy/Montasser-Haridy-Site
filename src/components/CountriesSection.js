@@ -19,11 +19,11 @@ export default function CountriesSection() {
       name: t('saudi.name'),
       description: t('saudi.description')
     },
-    {
-      countryCode: 'AE',
-      name: t('uae.name'),
-      description: t('uae.description')
-    },
+    // {
+    //   countryCode: 'AE',
+    //   name: t('uae.name'),
+    //   description: t('uae.description')
+    // },
   ];
 
   const otherCountries = [
@@ -92,7 +92,7 @@ export default function CountriesSection() {
             {t('main_markets')}
           </h3>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {mainMarkets.map((country, index) => (
               <motion.div
                 key={country.name}

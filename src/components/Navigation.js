@@ -4,7 +4,8 @@ import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Phone, MessageCircle, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
+import { Call, Whatsapp } from 'iconsax-react';
 import { Link } from '@/i18n/navigation';
 import { localeConfig } from '@/i18n/routing';
 import Image from 'next/image';
@@ -151,7 +152,7 @@ export default function Navigation() {
                   href="tel:0238333366"
                   className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
                 >
-                  <Phone className="w-4 h-4" />
+                  <Call size="16" variant="Bold" color="currentColor" />
                   <span className="text-sm font-medium">{t('callNow')}</span>
                 </a>
 
@@ -161,7 +162,7 @@ export default function Navigation() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
                 >
-                  <MessageCircle className="w-4 h-4" />
+                  <Whatsapp size="16" variant="Bold" color="currentColor" />
                   <span className="text-sm font-medium">{t('whatsapp')}</span>
                 </a>
               </div>
@@ -243,7 +244,7 @@ export default function Navigation() {
                     href="tel:0238333366"
                     className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-3 rounded-lg justify-center"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Call size="16" variant="Bold" color="currentColor" />
                     <span>{t('callNow')}</span>
                   </a>
 
@@ -253,7 +254,7 @@ export default function Navigation() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-green-600 text-white px-4 py-3 rounded-lg justify-center"
                   >
-                    <MessageCircle className="w-4 h-4" />
+                    <Whatsapp size="16" variant="Bold" color="currentColor" />
                     <span>{t('whatsapp')}</span>
                   </a>
                 </div>

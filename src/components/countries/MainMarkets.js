@@ -1,9 +1,9 @@
 import { getTranslations } from 'next-intl/server';
-import { MapPin, Phone, CheckCircle, Building } from 'lucide-react';
+import { Location, TickCircle, Buildings } from 'iconsax-react';
 import ReactCountryFlag from 'react-country-flag';
 
 export default async function MainMarkets() {
-  const t = await getTranslations('countries.main_markets');
+  const t = await getTranslations('countries');
 
   const markets = [
     {
@@ -15,11 +15,6 @@ export default async function MainMarkets() {
       key: 'saudi',
       countryCode: 'SA',
       color: 'green'
-    },
-    {
-      key: 'uae',
-      countryCode: 'AE',
-      color: 'blue'
     }
   ];
 
@@ -29,14 +24,14 @@ export default async function MainMarkets() {
         
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            {t('title')}
+            {t('main_markets_section.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            Our main operational hubs across the Middle East
+            {t('main_markets_section.subtitle')}
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {markets.map((market) => (
             <div 
               key={market.key}
@@ -69,20 +64,20 @@ export default async function MainMarkets() {
               
               {/* Location */}
               <div className="flex items-start mb-4 pb-4 border-b border-gray-200">
-                <MapPin className="w-5 h-5 text-gray-400 mr-3 mt-0.5 flex-shrink-0" />
+                <Location size="20" variant="Bold" color="#9ca3af" className="ltr:mr-3 rtl:ml-3 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">{t(`${market.key}.location`)}</span>
               </div>
-              
+
               {/* Services */}
               <div className="mb-4">
                 <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
-                  <Building className="w-4 h-4 mr-2" />
-                  Services:
+                  <Buildings size="16" variant="Bold" color="currentColor" className="ltr:mr-2 rtl:ml-2" />
+                  {t('services_label')}
                 </h4>
                 <div className="space-y-2">
                   {t.raw(`${market.key}.services`).map((service, idx) => (
                     <div key={idx} className="flex items-center">
-                      <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                      <TickCircle size="16" variant="Bold" color="#22c55e" className="ltr:mr-2 rtl:ml-2 flex-shrink-0" />
                       <span className="text-sm text-gray-600">{service}</span>
                     </div>
                   ))}
@@ -94,7 +89,7 @@ export default async function MainMarkets() {
                 <div className="text-2xl font-bold text-primary-600 mb-1">
                   {t(`${market.key}.cases`)}
                 </div>
-                <div className="text-sm text-gray-600">Successfully Completed</div>
+                <div className="text-sm text-gray-600">{t('successfully_completed')}</div>
               </div>
             </div>
           ))}

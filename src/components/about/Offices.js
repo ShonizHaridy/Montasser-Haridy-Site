@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { MapPin, Phone } from 'lucide-react';
+import { Location, Call } from 'iconsax-react';
 
 export default async function Offices() {
   const t = await getTranslations('footer');
@@ -20,15 +20,7 @@ export default async function Offices() {
       city: t('saudi_office.city'),
       address: t('saudi_office.address'),
       services: t('saudi_office.services'),
-      phone: '+966-XX-XXXXXXX'
-    },
-    {
-      country: 'UAE',
-      flag: '🇦🇪',
-      city: t('uae_office.city'),
-      address: t('uae_office.address'),
-      services: t('uae_office.services'),
-      phone: '+971-X-XXXXXXX'
+      phone: '+966 (53) 777 2556'
     }
   ];
 
@@ -45,7 +37,7 @@ export default async function Offices() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {offices.map((office, index) => (
             <div 
               key={index}
@@ -62,13 +54,13 @@ export default async function Offices() {
               
               <div className="space-y-3 mb-6">
                 <div className="flex items-start space-x-3 rtl:space-x-reverse">
-                  <MapPin className="w-5 h-5 text-gray-400 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-600">{office.address}</span>
+                  <Location size="20" variant="Bold" color="#9ca3af" className="mt-0.5 flex-shrink-0" />
+                  <span className="text-gray-600 whitespace-pre-line">{office.address}</span>
                 </div>
-                
+
                 <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                  <Phone className="w-5 h-5 text-gray-400 flex-shrink-0" />
-                  <span className="text-gray-600">{office.phone}</span>
+                  <Call size="20" variant="Bold" color="#9ca3af" className="flex-shrink-0" />
+                  <span className="text-gray-600" dir={office.phone.startsWith('+') ? 'ltr' : undefined}>{office.phone}</span>
                 </div>
               </div>
               

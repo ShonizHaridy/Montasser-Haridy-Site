@@ -136,7 +136,7 @@ export default function AboutSection() {
               <div className="flex items-center gap-3 p-3 bg-gold-50 rounded-lg">
                 <Star className="w-6 h-6 text-gold-600" />
                 <span className="font-bold text-gold-700">
-                  {locale === 'ar' ? 'محامي النجوم والساسة ورجال الأعمال' : 'Lawyer for Stars, Politicians & Business Leaders'}
+                  {locale === 'ar' ? 'محامي النجوم والسياسين ورجال الأعمال' : 'Lawyer for Stars, Politicians & Business Leaders'}
                 </span>
               </div>
             </motion.div>

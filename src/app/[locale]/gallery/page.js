@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Camera, Video, Grid, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
@@ -33,27 +33,31 @@ export default function GalleryPage() {
     setSelectedImage(items[index]);
   };
 
-  const closeLightbox = () => {
+  const closeLightbox = useCallback(() => {
     setSelectedImage(null);
-  };
+  }, []);
 
-  const nextImage = () => {
-    const newIndex = (imageIndex + 1) % items.length;
-    setImageIndex(newIndex);
-    setSelectedImage(items[newIndex]);
-  };
+  const nextImage = useCallback(() => {
+    setImageIndex((prevIndex) => {
+      const newIndex = (prevIndex + 1) % items.length;
+      setSelectedImage(items[newIndex]);
+      return newIndex;
+    });
+  }, [items]);
 
-  const prevImage = () => {
-    const newIndex = (imageIndex - 1 + items.length) % items.length;
-    setImageIndex(newIndex);
-    setSelectedImage(items[newIndex]);
-  };
+  const prevImage = useCallback(() => {
+    setImageIndex((prevIndex) => {
+      const newIndex = (prevIndex - 1 + items.length) % items.length;
+      setSelectedImage(items[newIndex]);
+      return newIndex;
+    });
+  }, [items]);
 
   // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (!selectedImage) return;
-      
+
       if (e.key === 'ArrowRight') nextImage();
       if (e.key === 'ArrowLeft') prevImage();
       if (e.key === 'Escape') closeLightbox();
@@ -61,7 +65,8 @@ export default function GalleryPage() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedImage, imageIndex]);
+  }, [selectedImage, nextImage, prevImage, closeLightbox]);
+
 
   return (
     <div className="pt-20 min-h-screen bg-background">

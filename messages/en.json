@@ -764,7 +764,7 @@
     "hours": "Working Hours",
     "emergency": "24/7 Emergency Available",
     "emergency_desc": "24/7 emergency consultation available",
-    "location_value": "Downtown Cairo, Egypt",
+    "location_value": "4th Neighborhood, Service Axis (El-Mahwar Al-Khidmi), in front of the City of Culture & Science",
     "hours_value": "Saturday-Thursday 9AM-6PM",
     "get_in_touch": "Get in Touch",
     "get_in_touch_subtitle": "We're here to help with your legal needs. Contact us through any of the following methods, and we'll respond promptly.",
@@ -837,7 +837,7 @@
       "name": "Egypt",
       "description": "Headquarters - All legal services",
       "role": "Headquarters",
-      "location": "Downtown Cairo, Egypt",
+      "location": "4th Neighborhood, Service Axis (El-Mahwar Al-Khidmi), in front of the City of Culture & Science",
       "services": [
         "All types of litigation",
         "Company formation",
@@ -851,7 +851,7 @@
       "name": "Saudi Arabia",
       "description": "Corporate formation & investment",
       "role": "Regional Hub",
-      "location": "Al Olaya District, Riyadh",
+      "location": "Riyadh, Al Malaz",
       "services": [
         "Company formation without sponsor",
         "Investment licenses",
@@ -947,21 +947,43 @@
     "offices": "Our Offices",
     "rights": "All rights reserved",
     "premium_services": "Premium Legal Services",
+    "departments": "Departments",
     "egypt_office": {
-      "city": "Cairo, Egypt",
-      "address": "Downtown Cairo",
+      "city": "Giza, Egypt",
+      "address": "District 11, Building 32, 1st & 3rd Floor\nNeighborhood 4, Service Axis, In Front of City of Culture and Science",
       "services": "All legal services"
     },
     "saudi_office": {
-      "city": "Riyadh, Saudi Arabia",
-      "address": "Al Olaya District",
+      "city": "Saudi Arabia",
+      "address": "Riyadh - Al Malaz",
       "services": "Corporate formation"
     },
-    "uae_office": {
-      "city": "Dubai, UAE",
-      "address": "DIFC",
-      "services": "International trade"
-    },
+    "department_list": [
+      {
+        "name": "Saudi Arabia Company Formation",
+        "phones": ["01009297299", "01040120840"]
+      },
+      {
+        "name": "VIP Department",
+        "phones": ["01061777054", "01009252009"]
+      },
+      {
+        "name": "Tax Accounting Department",
+        "phones": ["01080202910", "01050504817"]
+      },
+      {
+        "name": "Buy & Sell Companies",
+        "phones": ["01050227414"]
+      },
+      {
+        "name": "Litigation Department",
+        "phones": ["01010663996", "01050227342", "01050405437", "01003095470", "01061744496", "01050368090", "01050402043", "01050227410"]
+      },
+      {
+        "name": "Company Formation & Residency in Egypt",
+        "phones": ["01018535849", "01070280470", "01052139140", "01050504810", "01015202482"]
+      }
+    ],
     "available_services": "Available Services:"
   },
   "common": {

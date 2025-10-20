@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslations, useLocale } from 'next-intl';
-import { Phone, MessageCircle, MapPin, Clock, Send, Zap } from 'lucide-react';
+import { Call, Whatsapp, Location, Clock, Send, Flash } from 'iconsax-react';
 
 export default function ContactSection() {
   const t = useTranslations('contact');
@@ -31,32 +31,45 @@ export default function ContactSection() {
 
   const contactInfo = [
     {
-      icon: Phone,
+      icon: 'call',
       label: t('phone'),
       value: '0238333366',
-      href: 'tel:0238333366',
+      href: 'tel:+20238333366',
       color: 'blue',
+      iconColor: '#2563eb',
     },
     {
-      icon: MessageCircle,
-      label: t('whatsapp'),
+      icon: 'whatsapp',
+      label: t('whatsapp') + ' ' + (locale === 'ar' ? '(مصر)' : '(Egypt)'),
       value: '01070009593',
       href: 'https://wa.me/201070009593',
       color: 'green',
+      iconColor: '#25D366',
     },
     {
-      icon: MapPin,
+      icon: 'whatsapp',
+      label: t('whatsapp') + ' ' + (locale === 'ar' ? '(السعودية)' : '(Saudi)'),
+      value: '(+966) 53 777 2556',
+      href: 'https://wa.me/966537772556',
+      color: 'green',
+      iconColor: '#25D366',
+      isRTL: true,
+    },
+    {
+      icon: 'location',
       label: t('location'),
       value: t('location_value'),
       href: '#',
       color: 'purple',
+      iconColor: '#9333ea',
     },
     {
-      icon: Clock,
+      icon: 'clock',
       label: t('hours'),
       value: t('hours_value'),
       href: '#',
       color: 'orange',
+      iconColor: '#f59e0b',
     },
   ];
 
@@ -87,18 +100,25 @@ export default function ContactSection() {
           >
             <div className="space-y-8">
               {contactInfo.map((info, index) => {
-                const Icon = info.icon;
+                const IconComponent =
+                  info.icon === 'call' ? Call :
+                  info.icon === 'whatsapp' ? Whatsapp :
+                  info.icon === 'location' ? Location :
+                  Clock;
+
                 const colorClasses = {
-                  blue: 'bg-blue-100 text-blue-600',
-                  green: 'bg-green-100 text-green-600',
-                  purple: 'bg-purple-100 text-purple-600',
-                  orange: 'bg-orange-100 text-orange-600',
+                  blue: 'bg-blue-100',
+                  green: 'bg-green-100',
+                  purple: 'bg-purple-100',
+                  orange: 'bg-orange-100',
                 };
 
                 return (
                   <motion.a
                     key={index}
                     href={info.href}
+                    target={info.href.startsWith('http') ? '_blank' : undefined}
+                    rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -106,13 +126,13 @@ export default function ContactSection() {
                     className="flex items-center gap-6 p-6 bg-background rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 group"
                   >
                     <div className={`w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform ${colorClasses[info.color]}`}>
-                      <Icon className="w-8 h-8" />
+                      <IconComponent size="32" variant="Bold" color={info.iconColor} />
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground text-lg mb-1">
                         {info.label}
                       </h4>
-                      <p className="text-muted-foreground">{info.value}</p>
+                      <p className="text-muted-foreground" dir={info.isRTL ? 'ltr' : undefined}>{info.value}</p>
                     </div>
                   </motion.a>
                 );
@@ -127,7 +147,7 @@ export default function ContactSection() {
               className="mt-8 p-6 bg-gradient-to-r from-red-500 to-red-600 text-white rounded-xl"
             >
               <div className="flex items-center gap-4">
-                <Zap className="w-8 h-8 animate-pulse" />
+                <Flash size="32" variant="Bold" color="#ffffff" className="animate-pulse" />
                 <div>
                   <h4 className="font-bold text-lg">{t('emergency')}</h4>
                   <p className="opacity-90">{t('emergency_desc')}</p>
@@ -229,10 +249,10 @@ export default function ContactSection() {
                   </button>
 
                   <a
-                    href="tel:0238333366"
+                    href="tel:+20238333366"
                     className="flex-1 flex items-center justify-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors"
                   >
-                    <Zap className="w-5 h-5" />
+                    <Flash size="20" variant="Bold" color="#ffffff" />
                     {t('form.emergency')}
                   </a>
                 </div>
