@@ -16,6 +16,15 @@ export default async function ContactInfo() {
       hoverColor: 'group-hover:bg-blue-200'
     },
     {
+      icon: 'call',
+      label: t('phone'),
+      value: '01050404143',
+      href: 'tel:+201050404143',
+      bgColor: 'bg-blue-100',
+      iconColor: '#2563eb',
+      hoverColor: 'group-hover:bg-blue-200'
+    },
+    {
       icon: 'whatsapp',
       label: t('whatsapp') + ' ' + (locale === 'ar' ? '(مصر)' : '(Egypt)'),
       value: '01070009593',

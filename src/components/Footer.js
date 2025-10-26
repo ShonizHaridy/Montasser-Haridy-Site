@@ -68,6 +68,13 @@ export default function Footer() {
                 <Call size="20" variant="Bold" color="currentColor" />
                 <span>0238333366</span>
               </a>
+              <a
+                href="tel:+201050404143"
+                className="flex items-center gap-3 hover:text-accent transition-colors"
+              >
+                <Call size="20" variant="Bold" color="currentColor" />
+                <span>01050404143</span>
+              </a>
               <div className="space-y-2">
                 <a
                   href="https://wa.me/201070009593"

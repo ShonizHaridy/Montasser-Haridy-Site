@@ -26,7 +26,7 @@ export default function Navigation() {
     { name: t('about'), href: '/about' },
     { name: t('services'), href: '/services' },
     { name: t('blog'), href: '/blog' },
-    { name: t('gallery'), href: '/gallery' },
+    // { name: t('gallery'), href: '/gallery' },
     { name: t('contact'), href: '/contact' },
   ];
 
